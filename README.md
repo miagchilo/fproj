@@ -1,6 +1,8 @@
 By using this app you can check the crypto currencies values and market cap.
-link for storytell :
-link for netlify :
+
+## link for storytell :
+
+## link for netlify :
 
 ## Available Scripts
 
