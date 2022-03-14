@@ -1,6 +1,6 @@
 By using this app you can check the crypto currencies values and market cap.
 
-## link for storytell :
+## link for storybook : https://www.chromatic.com/component?appId=622f77a5d22277003ab36033&name=CryptoApp%2FApp&buildNumber=1&componentInspectorKey=622f781701f534003adaba36-1200-interactive-true&historyLengthAtIndex=9&distanceToMoveBack=-1
 
 ## link for netlify :
 
