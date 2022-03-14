@@ -1,16 +1,30 @@
+// eslint-disable-next-line no-undef
 module.exports = {
-  $schema: "http://json.schemastore.org/eslintrc",
+  $schema: 'http://json.schemastore.org/eslintrc',
   env: {
     browser: true,
     es2021: true,
   },
-  extends: ["eslint:recommended"],
+  parser: 'babel-eslint-parser',
+  extends: ['eslint:recommended'],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  plugins: ["prettier"],
+  plugins: ['prettier'],
   rules: {
-    "prettier/prettier": "error",
+    'prettier/recommended': [
+      'error',
+      {
+        endOfLine: 'auto',
+        printWidth: 80,
+        trailingComma: 'es5',
+        semi: true,
+        doubleQuote: false,
+        jsxSingleQuote: true,
+        singleQuote: true,
+        useTabs: false,
+      },
+    ],
   },
 };
