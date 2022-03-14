@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import App from "./App";
+import App from './App';
 
 export default {
   // this is where it will appear on the storybook sidebar
-  title: "CryptoApp/App",
+  title: 'CryptoApp/App',
   component: App,
 };
 
