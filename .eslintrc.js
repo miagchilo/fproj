@@ -5,7 +5,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  parser: 'babel-eslint-parser',
+  // parser: 'babel-eslint-parser',
   extends: ['eslint:recommended'],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
-    'prettier/recommended': [
+    'prettier/prettier': [
       'error',
       {
         endOfLine: 'auto',
